@@ -16,7 +16,7 @@ export default function App() {
       title: "Pizza Sales Dashboard",
       description:
         "Interactive Power BI dashboard visualizing total revenue, top/bottom pizzas, and daily/monthly trends.",
-      img: process.env.PUBLIC_URL + "/pizza.png",
+      img: "/pizza.png",
       link: "https://app.powerbi.com/view?r=eyJrIjoiMDAzYmI1NGItZWNhMS00OTBmLThiN2EtMjNkNDU4ZTc3NTc0IiwidCI6ImU5ZTMyMjg2LTU0ZDktNDMxMS1hMjZjLTI2ZmIxZDYyM2VkYyJ9",
       github: "https://github.com/Jack-tech32/Pizza_Sales_Dashboard"
     },
@@ -24,7 +24,7 @@ export default function App() {
       title: "Spam Email Detection",
       description:
         "ML model that classifies emails as spam or ham with high accuracy.",
-      img: process.env.PUBLIC_URL + "/SPAM_PROJECT.png",
+      img: "/SPAM_PROJECT.png",
       link: "https://spam-mail-detection-w2xojn5ida5a6awclkj869.streamlit.app/",
       github: "https://github.com/Jack-tech32/Spam-Mail-Detection"
     },
@@ -32,7 +32,7 @@ export default function App() {
       title: "Crop Recommendation System",
       description:
         "ML system suggesting best crops based on soil, weather and environmental data.",
-      img: process.env.PUBLIC_URL + "/crop_image.jpg",
+      img: "/crop_image.jpg",
       link: "https://crop-recommendation-system-kwzkgofvhjdkcxzqp5wmuw.streamlit.app/",
       github: "https://github.com/Jack-tech32/Crop-Recommendation-System"
     },
@@ -40,7 +40,7 @@ export default function App() {
       title: "Jack E-Commerce Sales Dashboard",
       description:
         "Dynamic sales analysis with KPIs, category trends, and profit insights using Power BI & SQL.",
-      img: process.env.PUBLIC_URL + "/ecommerce.png",
+      img: "/ecommerce.png",
       link: "https://app.powerbi.com/view?r=eyJrIjoiOWFkYmQ2ODctZGM0NC00MDZhLWIyMzktMTJjZmRjMGU4NWJjIiwidCI6ImU5ZTMyMjg2LTU0ZDktNDMxMS1hMjZjLTI2ZmIxZDYyM2VkYyJ9",
       github: "https://github.com/Jack-tech32/Jack_e_Commerce_Dashboard"
     }
@@ -51,36 +51,36 @@ export default function App() {
     {
       name: "OCI Data Science Professional",
       issuer: "Oracle",
-      img: process.env.PUBLIC_URL + "/OCI-Data-Science.png",
+      img: "/OCI-Data-Science.png",
       link: "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7024248&trackId=OCI25DSOCP&key=766ee21b37becdc445db497baa9f124ab66f0d19"
     },
     {
       name: "Power BI Desktop",
       issuer: "Skillcourse",
-      img: process.env.PUBLIC_URL + "/powerbi.png"
+      img: "/powerbi.png"
     },
     {
       name: "Business Analytics with Excel",
       issuer: "Microsoft-simplilearn",
-      img: process.env.PUBLIC_URL + "/bisinessanalytics.png",
+      img: "/bisinessanalytics.png",
       link: "https://simpli.app.link/flD11qefXWb"
     },
     {
       name: "SQL Basic",
       issuer: "Hackerrank",
-      img: process.env.PUBLIC_URL + "/sqlbasics.png",
+      img: "/sqlbasics.png",
       link: "https://www.hackerrank.com/certificates/iframe/01d82de1c3e5"
     },
     {
       name: "SQL Intermediate",
       issuer: "Hackerrank",
-      img: process.env.PUBLIC_URL + "/sql_intermediate.png",
+      img: "/sql_intermediate.png",
       link: "https://www.hackerrank.com/certificates/iframe/18f2a3bd2453"
     },
     {
       name: "Training and Development",
       issuer: "NPTEL",
-      img: process.env.PUBLIC_URL + "/training_NPTEL.jpg",
+      img: "/training_NPTEL.jpg",
       link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/109/noc25-hs78/Course/NPTEL25HS78S64760079804605000.pdf"
     }
   ];
@@ -112,7 +112,7 @@ export default function App() {
         <p className="text-gray-300 mb-6">Download my resume here</p>
         <div className="flex justify-center gap-4">
           <a
-            href={process.env.PUBLIC_URL + "/Data_Analyst_resume.pdf"}
+            href="public/Data_Analyst_resume  (1).pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-6 py-3 rounded-lg transition"
@@ -120,7 +120,7 @@ export default function App() {
             View Resume
           </a>
           <a
-            href={process.env.PUBLIC_URL + "/Data_Analyst_resume.pdf"}
+            href="public/Data_Analyst_resume  (1).pdf"
             download
             className="bg-green-600 hover:bg-green-500 text-white font-semibold px-6 py-3 rounded-lg transition"
           >
@@ -181,4 +181,4 @@ export default function App() {
       </footer>
     </div>
   );
-}
+}   
