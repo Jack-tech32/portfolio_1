@@ -16,7 +16,7 @@ export default function App() {
       title: "Pizza Sales Dashboard",
       description:
         "Interactive Power BI dashboard visualizing total revenue, top/bottom pizzas, and daily/monthly trends.",
-      img: "/pizza.png",
+      img: "public/pizza.png",
       link: "https://app.powerbi.com/view?r=eyJrIjoiMDAzYmI1NGItZWNhMS00OTBmLThiN2EtMjNkNDU4ZTc3NTc0IiwidCI6ImU5ZTMyMjg2LTU0ZDktNDMxMS1hMjZjLTI2ZmIxZDYyM2VkYyJ9",
       github: "https://github.com/Jack-tech32/Pizza_Sales_Dashboard"
     },
@@ -24,7 +24,7 @@ export default function App() {
       title: "Spam Email Detection",
       description:
         "ML model that classifies emails as spam or ham with high accuracy.",
-      img: "/SPAM_PROJECT.png",
+      img: "public/SPAM_PROJECT.png",
       link: "https://spam-mail-detection-w2xojn5ida5a6awclkj869.streamlit.app/",
       github: "https://github.com/Jack-tech32/Spam-Mail-Detection"
     },
@@ -32,7 +32,7 @@ export default function App() {
       title: "Crop Recommendation System",
       description:
         "ML system suggesting best crops based on soil, weather and environmental data.",
-      img: "/crop_image.jpg",
+      img: "public/crop_image.jpg",
       link: " https://crop-recommendation-system-kwzkgofvhjdkcxzqp5wmuw.streamlit.app/",
       github: "https://github.com/Jack-tech32/Crop-Recommendation-System"
     },
@@ -40,7 +40,7 @@ export default function App() {
       title: "Jack E-Commerce Sales Dashboard",
       description:
         "Dynamic sales analysis with KPIs, category trends, and profit insights using Power BI & SQL.",
-      img: "/ecommerce.png",
+      img: "public/ecommerce.png",
       link: "https://app.powerbi.com/view?r=eyJrIjoiOWFkYmQ2ODctZGM0NC00MDZhLWIyMzktMTJjZmRjMGU4NWJjIiwidCI6ImU5ZTMyMjg2LTU0ZDktNDMxMS1hMjZjLTI2ZmIxZDYyM2VkYyJ9",
       github: "https://github.com/Jack-tech32/Jack_e_Commerce_Dashboard"
     }
@@ -51,36 +51,36 @@ export default function App() {
     {
       name: "OCI Data Science Professional",
       issuer: "Oracle",
-      img: "/OCI-Data-Science.png",
+      img: "public/OCI-Data-Science.png",
       link: "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7024248&trackId=OCI25DSOCP&key=766ee21b37becdc445db497baa9f124ab66f0d19"
     },
     {
       name: "Power BI Desktop",
       issuer: "Skillcourse",
-      img: "/powerbi.png"
+      img: "public/powerbi.png"
     },
     {
       name: "Business Analytics with Excel",
       issuer: "Microsoft-simplilearn",
-      img: "/bisinessanalytics.png",
+      img: "public/bisinessanalytics.png",
       link: "https://simpli.app.link/flD11qefXWb"
     },
     {
       name: "SQL Basic",
       issuer: "Hackerrank",
-      img: "/sqlbasics.png",
+      img: "public/sqlbasics.png",
       link: "https://www.hackerrank.com/certificates/iframe/01d82de1c3e5"
     },
     {
       name: "SQL Intermediate",
       issuer: "Hackerrank",
-      img: "/sql_intermediate.png",
+      img: "public/sql_intermediate.png",
       link: "https://www.hackerrank.com/certificates/iframe/18f2a3bd2453"
     },
     {
       name: "Training and Development",
       issuer: "NPTEL",
-      img: "/training_NPTEL.jpg",
+      img: "public/training_NPTEL.jpg",
       link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/109/noc25-hs78/Course/NPTEL25HS78S64760079804605000.pdf"
     }
   ];
